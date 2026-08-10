@@ -1,0 +1,26 @@
+{
+  "source_file": "SEC_10K_Audit_Checklist",
+  "num_line_items": 2,
+  "line_items": [
+    {
+      "line_item_id": "AUDIT-001",
+      "description": "Extract total net revenue and operating income for fiscal year 2023.",
+      "section": "Item 7 - MD&A",
+      "ground_truth": {
+        "status": "INCLUDED",
+        "cost": "$383,285,000,000",
+        "notes": "Disclosed under Consolidated Statements of Operations"
+      }
+    },
+    {
+      "line_item_id": "AUDIT-002",
+      "description": "Identify operating lease commitments and total future minimum lease payments.",
+      "section": "Item 8 - Financial Statements",
+      "ground_truth": {
+        "status": "INCLUDED",
+        "cost": "$11,210,000,000",
+        "notes": "Note 10 - Lease Liabilities"
+      }
+    }
+  ]
+}

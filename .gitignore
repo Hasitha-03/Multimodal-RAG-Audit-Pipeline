@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.streamlit/
+data/runs/
+data/results/
+data/contractors/
+processed_data/
+*.env
+.DS_Store
